@@ -1,3 +1,4 @@
+import './Pokedex.scss';
 import Pokecard from './Pokecard';
 
 const Pokedex = () => {
@@ -14,16 +15,20 @@ const Pokedex = () => {
 
   return (
     <div className='Pokedex'>
-      <h1>Pokédex</h1>
-      {pokemon.map(item => (
-        <Pokecard
-          key={item.id}
-          id={item.id}
-          name={item.name}
-          type={item.type}
-          exp={item.base_experience}
-        />
-      ))}
+      <h1 className='Pokedex-title'>
+        Pokédex
+      </h1>
+      <div className='Pokedex-cards'>
+        {pokemon.map(item => (
+          <Pokecard
+            key={item.id}
+            id={item.id}
+            name={item.name}
+            type={item.type}
+            exp={item.base_experience}
+          />
+        ))}
+      </div>
     </div>
   );
 }
