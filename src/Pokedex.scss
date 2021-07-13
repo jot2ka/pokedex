@@ -1,6 +1,19 @@
 .Pokedex {
+  text-align: center;
 
   .Pokedex-title {
+    margin: .5rem 0 0 0;
+  }
+
+  .Pokedex-winner {
+    color: #4caf50;
+  }
+
+  .Pokedex-loser {
+    color: #e91e63;
+  }
+
+  .Pokedex-sub-title {
     margin: 0;
   }
 
