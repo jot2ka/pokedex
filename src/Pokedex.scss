@@ -2,7 +2,7 @@
   text-align: center;
 
   .Pokedex-title {
-    margin: .5rem 0 0 0;
+    margin: 0;
   }
 
   .Pokedex-winner {
@@ -19,7 +19,7 @@
 
   .Pokedex-cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
   }
 }

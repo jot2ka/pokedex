@@ -3,7 +3,7 @@ import Pokegame from './Pokegame';
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='App noselect'>
       <Pokegame />
     </div>
   );
