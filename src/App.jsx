@@ -1,10 +1,10 @@
 import './App.scss';
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 
 const App = () => {
   return (
     <div className='App'>
-      <Pokedex />
+      <Pokegame />
     </div>
   );
 }
